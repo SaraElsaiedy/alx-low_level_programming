@@ -18,7 +18,7 @@ int main(void)
 			{
 				for (digit4 = '0'; digit4 <= '9'; ++digit4)
 				{
-					if (digit1 > digit3 || digit2 >= digit4)
+					if (digit1 > digit3 || (digit1 == digit3 && digit2 >= digit4))
 					{
 						continue;
 					}
